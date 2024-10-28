@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+     background-color: #f0f0f0;;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.profile-pic{
+    width: 160px; 
+    height: 160px;
+    border-radius: 50%;
+    background: conic-gradient(from 60deg, #f84c4f 0deg 180deg, black 180deg 360deg);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+h2 {
+    color: #f84c4f;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4f3bff;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.bio p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.bio a {
+    color: #f84c4f;
+    text-decoration: none;
+}
+
+.bio a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social i {
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social i:hover {
+    color: #ff3b3f;
+    transform: scale(1.2);
+}
+
+.buttons {
+    margin: 30px 0;
+}
+
+.buttons button {
+    background-color: #fff;
+    border: 2px solid #f84c4f;
+    color: #333;
+    padding: 10px 40px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #f84c4f;
+    color: #fff;
+}
